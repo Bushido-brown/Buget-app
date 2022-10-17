@@ -1,62 +1,84 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Budget App
 
-> Description the project.
+## Description
 
+> The Ruby on Rails capstone project Budget App is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+
+This Ruby on Rails application allows the user to:
+
+- Register and log in, so that the data is private to them.
+
+- Introduce new transactions associated with a category.
+
+- See the money spent on each category.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Ruby on Rails
+- Postgress
+- Capybara/Rspec
+- CSS
 
-## Live Demo (if available)
+## Live Demo (Link for Budget App)
 
-[Live Demo Link](https://livedemo.com)
+[Heroku Live Demo Link]()
 
+## Development set up
 
-## Getting Started
+Clone Repository using
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+`git clone git@github.com:Bushido-brown/Budget-app.git`
 
+Or using HTTPS
 
-To get a local copy up and running follow these simple example steps.
+`git clone https://github.com/Bushido-brown/Budget-app.git`
 
-### Prerequisites
+Move into project directory
 
-### Setup
+`cd budget-app`
 
-### Install
+### Setup Database
 
-### Usage
+- Make sure that your Postgres database is installed.
+- Open the file config\database.yml
+- Modify the connection parameters to point your Postgres database:
 
-### Run tests
+  `username: [your_user]`
 
-### Deployment
+  `password: [your_password]`
 
+- If required drop existing database : `rake db:drop`
+- Create databases: `rake db:create`
+- Create db structure including tables : `rake db:migrate`
+- If required seed initial data (stored in db\seeds.rb file): `rails db:seed`
 
+### Run Tests
 
-## Authors
+- Install rspec: `bundle install`
+- Run all tests: `rspec spec`
+- Run all tests and show test documentation: `rspec spec --format documentation`
 
-👤 **Author1**
+### Run App
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- If required (Not for testing) run `rails server`
+- Visit http://localhost:3000/ in your browser!
 
-👤 **Author2**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Tochukwu Orizu**
+
+- GitHub: [@Bushido-brown](https://github.com/Bushido-brown)
+- Twitter: [@Bushido-brown](https://twitter.com/Bushido-brown)
+- LinkedIn: [Tochukwuorizu](https://linkedin.com/in/tochukwuorizu)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Bushido-brown/Budget-app/issues).
 
 ## Show your support
 
@@ -66,10 +88,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
