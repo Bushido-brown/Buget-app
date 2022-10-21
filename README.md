@@ -22,23 +22,23 @@ This Ruby on Rails application allows the user to:
 - Capybara/Rspec
 - CSS
 
-## Live Demo (Link for Budget App)
+## Video presentation
 
-[Heroku Live Demo Link]()
+## Live Demo (Link for Budget App)
 
 ## Development set up
 
 Clone Repository using
 
-`git clone git@github.com:Bushido-brown/Budget-app.git`
+`git clone git@github.com:Bushido-brown/Buget-app.git`
 
 Or using HTTPS
 
-`git clone https://github.com/Bushido-brown/Budget-app.git`
+`git clone git@github.com:Bushido-brown/Buget-app.git`
 
 Move into project directory
 
-`cd budget-app`
+`cd Buget-app`
 
 ### Setup Database
 
@@ -71,14 +71,14 @@ Move into project directory
 👤 **Tochukwu Orizu**
 
 - GitHub: [@Bushido-brown](https://github.com/Bushido-brown)
-- Twitter: [@Bushido-brown](https://twitter.com/Bushido-brown)
-- LinkedIn: [Tochukwuorizu](https://linkedin.com/in/tochukwuorizu)
+- Twitter: [@amrendrak\_](https://twitter.com/Bushido)
+- LinkedIn: [tochukwuorizu](https://linkedin.com/in/tochukwuorizu)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Bushido-brown/Budget-app/issues).
+Feel free to check the [issues page](https://github.com/Bushido-brown/Buget-app/issues).
 
 ## Show your support
 
@@ -86,8 +86,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Based on [Gregoire Vella on Behance design](https://www.behance.net/gregoirevella)
 - Hat tip to anyone whose code was used
-- Inspiration
+- Inspiration and support from peer group
 
 ## 📝 License
 

@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-@user = User.create(name: 'Amrendra Kumar', email: 'amrendrak.ind@gmail.com', password: '123456')
+@user = User.create(name: 'Tochukwu Orizu', email: 'orizut@gmail.com', password: '123456')
 
 @group1= Group.create(user_id: @user.id,  name: 'Icon1',  icon: '🎉')
 @group2= Group.create(user_id: @user.id,  name: 'Icon2',  icon: '🎄')
